@@ -1,0 +1,45 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+.card{
+	text-align: center;
+	margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px;
+}
+
+h1{
+	font-weight: bold;
+    text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	color: black; 
+}
+
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+/*.gems{
+	clear: both;
+}
+.gemImage{
+  margin-left: auto;
+  margin-right: auto;
+  width: 7.5%;
+  height: 15%;
+}*/
+
+.column1 {
+	float: left;
+	width: 25%;
+	padding: 5px;
+	height: 20px;
+  }
+  
+  /* Clear floats after image containers */
+  .row1::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
